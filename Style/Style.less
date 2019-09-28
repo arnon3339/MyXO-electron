@@ -1,0 +1,47 @@
+@smallBoxWidth: 1040px/4;
+@smallBoxHeight: 1040px/4;
+body{
+    background: gray;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 800px;
+    overflow: hidden;
+    border-radius: 5px
+}
+app-root{
+    //position: relative;
+    background: red;
+    overflow: hidden;
+}
+#box1{
+    display: grid;
+    grid-template-columns: repeat(3, @smallBoxWidth);
+    grid-auto-rows: @smallBoxWidth;
+}
+.small-box{
+    //position: absolute;
+    background:yellow;
+    box-sizing: content-box;
+    height: @smallBoxHeight;
+    width: @smallBoxWidth;
+    border: solid black 2px;
+    text-align: center;
+    font-size: 180px;
+    user-select: none;
+    cursor: pointer;
+}
+.x-clicked{
+    background: white;
+    color: black;
+    border: solid lightcyan 2px;
+    text-align: center;
+    font-size: 180px;
+    cursor: pointer;
+}
+.o-clicked{
+    background: black;
+    color: white;
+    border: solid lightcyan 2px;
+    text-align: center;
+    font-size: 180px;
+}

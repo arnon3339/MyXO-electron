@@ -1,8 +1,8 @@
 {
-  "name": "oxapp",
+  "name": "myelectron1",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "main-process/main.js",
   "scripts": {
     "start": "electron . --disable-gpu",
     "package-linux": "electron-packager . electron-tutorial-app --overwrite --asar --platform=linux --arch=x64 --icon=assets/icons/png/1024x1024.png --prune=true --out=release-builds"
@@ -11,6 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "electron": "^6.0.10",
-    "electron-packager": "^14.0.6"
+    "electron-packager": "^14.0.6",
+    "npm-install-webpack-plugin": "^4.0.5",
+    "webpack": "^4.41.0"
   }
 }
