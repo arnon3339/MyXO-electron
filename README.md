@@ -25,16 +25,16 @@ Before you begin, ensure you have met the following requirements:
 
 ### Clone the Repository
 
-\`\`\`bash
+`
 git clone https://github.com/yourusername/xo-game-electron-app.git
 cd xo-game-electron-app
-\`\`\`
+`
 
 ### Install Dependencies
 
-\`\`\`bash
+`
 npm install
-\`\`\`
+`
 
 ## Usage
 
@@ -42,23 +42,23 @@ npm install
 
 To start the Electron app, run:
 
-\`\`\`bash
+`
 npm start
-\`\`\`
+`
 
 ### Building the App
 
 To build the app for your operating system, use the following commands:
 
 - For Windows:
-  \`\`\`bash
+  `
   npm run build:win
-  \`\`\`
+  `
 
 - For macOS:
-  \`\`\`bash
+  `
   npm run build:mac
-  \`\`\`
+  `
 
 - For Linux:
   `
