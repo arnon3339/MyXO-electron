@@ -61,9 +61,9 @@ To build the app for your operating system, use the following commands:
   \`\`\`
 
 - For Linux:
-  \`\`\`bash
+  `
   npm run build:linux
-  \`\`\`
+  `
 
 The built application will be found in the \`dist\` directory.
 
