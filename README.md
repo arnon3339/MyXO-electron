@@ -26,8 +26,10 @@ Before you begin, ensure you have met the following requirements:
 ### Clone the Repository
 
 `
-git clone https://github.com/yourusername/xo-game-electron-app.git
-cd xo-game-electron-app
+git clone https://github.com/arnon3339/MyXO-electron.git
+`
+`
+cd MyXO-electron
 `
 
 ### Install Dependencies
